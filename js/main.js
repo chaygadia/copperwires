@@ -34,8 +34,8 @@
     });
 
 
-   // Service-carousel
-   $(".service-carousel").owlCarousel({
+   // journey-carousel
+   $(".journey-carousel").owlCarousel({
     autoplay: true,
     smartSpeed: 2000,
     center: false,
