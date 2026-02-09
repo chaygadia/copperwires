@@ -1,3 +1,3 @@
 # copperwires.github.oi
 Copperwires are EIM_1SB26 scholars in Electrical and Maintenace course
-# author Sheila B. Gadia
+# Author Sheila B. Gadia
