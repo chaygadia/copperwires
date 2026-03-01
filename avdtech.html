@@ -48,7 +48,7 @@ body{
 .slide img{
     width:34%;
     height:100%;
-    object-fit:fill;
+    object-fit:cover;
     filter:brightness(60%);
 }
 
@@ -249,7 +249,7 @@ footer{
     <div class="slides" id="slides">
 
         <div class="slide">
-            <img src="img/banner-adv1.png" alt="">
+            <a href="#productoverview"><img src="img/banner-adv1.png" alt=""></a>
             <!-- <div class="caption">
                 <h1>Power Efficiency Enhancer</h1>
                 <p>Improve Electrical Performance & Stability</p>
@@ -258,7 +258,7 @@ footer{
         </div>
 
         <div class="slide">
-            <img src="img/banner-adv2.png" alt="">
+            <a href="#featuresview"><img src="img/banner-adv2.png" alt=""></a>
             <!-- <div class="caption">
                 <h1>Protect Your Appliances</h1>
                 <p>Smart Electrical Optimization Technology</p>
@@ -283,7 +283,7 @@ footer{
 </section>
 
 <!-- PRODUCT -->
-<section class="section">
+<section id="productoverview" class="section">
     <h2>Product Overview</h2>
     <div class="grid">
         <div>
@@ -305,7 +305,7 @@ footer{
 </section>
 
 <!-- FEATURES -->
-<section class="section">
+<section id="featuresview" class="section">
     <h2>Why Choose AVDTECH?</h2>
     <div class="features">
         <div class="card">
@@ -366,8 +366,8 @@ function updateCarousel(){
 
 function moveSlide(direction){
     currentIndex += direction;
-    if(currentIndex < 0) currentIndex = 2;
-    if(currentIndex > 2) currentIndex = 0;
+    if(currentIndex < 0) currentIndex = 1;
+    if(currentIndex > 1) currentIndex = 0;
     updateCarousel();
 }
 
